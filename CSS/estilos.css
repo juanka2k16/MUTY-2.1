@@ -1,0 +1,49 @@
+.imagen
+{
+    width: 100%; /*este codigo define el ancho de la imagen*/
+    height: 100%; /*este codigo define el alto de la imagen*/
+    text-align: center;
+    justify-content: center;
+
+}
+
+.migadepan
+{
+    width: 100%; /*ancho de la miga de pan*/
+    background-color: rgb(0, 0, 0);
+
+}
+
+.migadepan ul
+{
+    list-style: none; /*sin viñetas o sin numeración*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+
+}
+.menuprimario
+{
+    
+    font-size: 15pt;
+    position: relative; /*posicion realtiva para ajustes adicionales que se hagan dentro del html*/
+
+}
+.menuprimario > li
+{
+    display: inline-block; /*me define el bloque de manera horizontal*/
+    position: relative; /*posicion realtiva para ajustes adicionales que se hagan dentro del html*/
+    padding: 10pt; /*distancia entre botones del menú*/
+}
+.menuprimario > li > a
+{
+    padding: 10%;
+    text-decoration: none; /*quitar el subrayado*/
+    color: beige; /*color de la fuente*/
+
+}
+.menuprimario > li > a:hover
+{
+    background-color: green;
+    color: white;
+
+} 
